@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Books</title>
+    <title>BrillBOOKS</title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   </head>
 
   <body>
-
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">...</nav>
+    <nav class="navbar navbar-inverse bg-inverse">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">ADD A BOOK</a>
+        </li>
+      </ul>
+    </nav>
 
     <%= yield %>
   </body>

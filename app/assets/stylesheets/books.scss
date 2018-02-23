@@ -3,7 +3,22 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-.navbar navbar-expand-sm bg-dark navbar-dark{
+.headline { 
+  text-align: center;
+  padding: 50px;
+  font-size: 50px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
   
+}
+
+.nav-item {
+  font-color: #FFFFFF;
+  font-size: 20px;
 }
