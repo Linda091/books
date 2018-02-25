@@ -8,9 +8,9 @@
 .headline { 
   text-align: center;
   padding: 50px;
-  font-size: 60px;
+  font-size: 70px;
   letter-spacing: 3px;
-  color: #FF7F50;
+  color: #FF6347;
   font-weight: bold;
 }
 
@@ -33,9 +33,19 @@ body {
 }
 
 .navbar-light .navbar-brand {
-  color: #FF7F50;
+  color: #FF6347;
   font-weight: bold;
   font-size: 25px;
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: -0.3px;
+  padding-left: 40px;
+}
+
+.card-deck {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.about-brillbooks {
+  padding: 40px;
 }
