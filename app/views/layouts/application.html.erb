@@ -9,18 +9,18 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse bg-inverse">
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">ADD A BOOK</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand nav justify-content-center" href="#">BrillBOOKS</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">ABOUT</a>
+          <a class="nav-item nav-link disabled" href="#">ADD A BOOK</a>
+        </div>
+      </div>
     </nav>
 
     <%= yield %>
