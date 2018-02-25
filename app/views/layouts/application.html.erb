@@ -13,12 +13,11 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">BrillBOOKS</a>
+      <a class="navbar-brand" <%=link_to 'BrillBOOKS', root_path %></a>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">HOME</a>
-          <a class="nav-item nav-link active" href="#">ABOUT</a>
-          <a class="nav-item nav-link disabled" href="#">ADD A BOOK</a>
+          <a class="nav-item nav-link" <%=link_to 'ABOUT', about_path %></a>
+          <a class="nav-item nav-link disabled" <%=link_to 'ADD A BOOK',books_path %></a>
         </div>
       </div>
     </nav>

@@ -4,4 +4,7 @@ class BooksController < ApplicationController
     @books = Book.all
   end
 
+  def about
+  end
+
 end

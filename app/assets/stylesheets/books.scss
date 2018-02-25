@@ -10,6 +10,8 @@
   padding: 50px;
   font-size: 60px;
   letter-spacing: 3px;
+  color: #FF7F50;
+  font-weight: bold;
 }
 
 body {
@@ -17,19 +19,21 @@ body {
   padding: 0px;
   font-family: 'Source Sans Pro', sans-serif;
   background: image_url('spiration-light.png');
+  display: block;
   
 }
 
 .navbar {
-  font-color: #FFA07A;
+  font-color: #FF7F50;
   font-size: 25px;
   background: image_url('spiration-light.png');
   box-shadow: 0px 1px 3px #2a2a2a;
   font-family: 'Source Sans Pro', sans-serif;
+  padding: 0px;
 }
 
 .navbar-light .navbar-brand {
-  color: #FF6347;
+  color: #FF7F50;
   font-weight: bold;
   font-size: 25px;
   font-family: 'Source Sans Pro', sans-serif;
